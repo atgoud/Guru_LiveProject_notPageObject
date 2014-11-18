@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="customized_statement.verify_customized_statement">
+        <methods>
+          <include name="launch_browser"/>
+          <include name="close_browser"/>
+          <include name="verify_system"/>
+        </methods>
+      </class> <!-- customized_statement.verify_customized_statement -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
